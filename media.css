@@ -39,6 +39,7 @@
     }
     .primary-button{
         width: 100%;
+        text-align: center;
     }
     .header-right img{
         width:100%;
@@ -49,4 +50,16 @@
     #spl-cont{
         flex-direction: column-reverse;
     }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+    }
+    .link-columns{
+        align-items: center;
+    }
+}
+@media screen and (max-width: 479px) {
+    
 }
